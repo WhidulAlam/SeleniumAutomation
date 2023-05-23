@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="test_automation" verbose="1" >
+    <test name="selenium_grid" parallel="classes">
+       <classes>
+           <class name="selenium_grid.SeleniumGrid_Test1"/>
+           <class name="selenium_grid.SeleniumGrid_Test3"/>
+           <class name="selenium_grid.SeleniumGrid_Test2"/>
+<!--           <class name="api_test.SimplePostTest"></class>-->
+<!--           <class name="api_test.SimplePutTest"></class>-->
+<!--           <class name="api_test.SimplePatchTest"></class>-->
+<!--           <class name="api_test.SimpleDeleteTest"></class>-->
+       </classes>
+    </test>
+</suite>
+
